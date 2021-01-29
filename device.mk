@@ -23,6 +23,10 @@
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+#GAPPS
+TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/gapps/config.mk)
+
 # Prebuilt
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/motorola/sofiar/prebuilt/product,product) \

@@ -1,8 +1,8 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/device.mk \
-    $(LOCAL_DIR)/omni_sofiar.mk
+    $(LOCAL_DIR)/aicp_sofiar.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_sofiar-user \
-    omni_sofiar-userdebug \
-    omni_sofiar-eng \
+    aicp_sofiar-user \
+    aicp_sofiar-userdebug \
+    aicp_sofiar-eng \
