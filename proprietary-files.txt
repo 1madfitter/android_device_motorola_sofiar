@@ -244,6 +244,7 @@ lib64/motorola.hardware.popup@1.0.so
 lib64/motorola.hardware.vibrator@1.0.so
 lib64/vendor.egistec.hardware.fingerprint@2.0.so
 lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so
+lib64/vendor.qti.hardware.cacert@1.0.so
 etc/permissions/privapp-permissions-com.qualcomm.qcrilmsgtunnel.xml;product/etc/permissions
 
 lib64/libframeextension.so
