@@ -211,6 +211,11 @@ PRODUCT_SYSTEM_SERVER_JARS += \
     moto-ims-ext \
     moto-telephony
 
+      
+# Fix telephony-ext
+PRODUCT_PACKAGES += telephony-ext
+ 
+    
 # Temporary handling
 #
 # Include config.fs get only if legacy device/qcom/<target>/android_filesystem_config.h
