@@ -119,8 +119,7 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # Camera
 PRODUCT_PACKAGES += \
-    SnapdragonCamera2
-
+    Snap
 PRODUCT_PACKAGES += \
     libqcomfm_jni \
     qcom.fmradio
